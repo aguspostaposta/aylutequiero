@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Feliz primer mes amor</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <style>
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .img-loading{
-        max-width: 500px!important;
-    }
-    .container{
-        justify-content: center;
-    }
-    </style>
-    <div class="container row">
-        <img src="img/loading.gif" alt="" class="col-sm-12 col-lg-12 col-xs-12 img-loading">
+    <div class="container-fluid row txt">
+        <h3 class="col-sm-12 col-lg-12 col-xs-12">Hailen.</h3>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Bueno querida, ya cumplimos un messssssssss, ay ke dio mio y pensar que parece que fuera ayer cuando recien
+            empezabamos y decíamos “3 diasssss”, como pasa el tiempo, en cualquier momento vamos a estar hablándole
+            sobre Paulo a Agus Jr. ahre.
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Bueno, como ya te dije, ahora que ya llevamos 1 MES las cosas van a cambiar eh nena, ya no somos unos
+            simples noviecitos, ahora todo va a ser distinto, necesito que me pases tus contraseñas de tus redes
+            sociales, y no más labiales, ni ropa negra, *ahre siempre te jodo con lo mismo, necesito mas cosas tóxicas
+            con las que molestarte ayudame(? *.
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Ahre en realidad como que no me parece tan importante el hecho de cumplir mes, no se, es dificil de explicar
+            tipo, es como cumplir años, yo no creo en los cumpleaños xd, pero bueno, es como una excusa para escribirte
+            lo que está en mi cabeza y no quedar como un intenso, porque la gente normie cuando cumple meses le dice a
+            la otra persona cosas asi cursis y bueno, yo quiero ser parte de la gente normie y ser aceptado o sea, vos
+            me entendes bebesita.
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Mis cartas son raras, o sea, no son como las cartas normales que la gente espera, son más aburridas, me
+            gusta escribirlas en el momento, y no pensarlas tanto, por lo que en mi cabeza pienso muchas boludeces y la
+            carta se vuelve como larga y contiene tipo datazos que no son interesantes, pero weno, si queres podes dejar
+            de leerla ahora mismo. También es como que estoy hablando contigo ahora mismo, es un mix, para que no
+            pienses que soy intenso le meto boludeces. Y bueno, perdón, en esto tampoco soy normal(?
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Veo que continúas leyendo esto, me sorprende, yo no se si leería hasta aca, o sea no dije nada interesante,
+            ni siquiera nada que sea contenido de una carta, es puro relleno, me siento como pedritoVM en sus videos.
+            ENCIMA, me acabo de acordar que no te gusta leer jajajajaj y mira todo lo que escribí, ay esta chiquita me
+            va a dejar de leer en cualquier momento.
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Tome asiento señorita, tenemos para rato, le gustaría que le sirva algo para tomar? quizás un cafesito? son
+            la especialidad de la casa, me ofenderia si no prueba uno. Como esta? Que trae a una persona tan bella por
+            aquí? A quien está buscando?
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Mmmm no, no conozco a nadie llamado asi, excepto que me de plata y eso hara que me refresque la memoria (?
+            ahre.
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Bueno basta AGUSTIN, ya veo la cara de ceño fruncido de Aylen, *vos sabes que yo te quiero mucho linda *
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12 points3">
+            ...
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Bueno, llego la hora, pero, para hacerlo más divertido, si queres leer la verdadera carta necesitas un poco
+            de suerte (?)
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            Abajo hay 4 opciones, solo cuatro, agradeceme que no son más. En una de ellas está la carta por la que
+            viniste, en las demás no hay nada, te doy dos intentos, si le erras no la podrás leer… Ya no queda nada más
+            que hacer de mi parte, todo depende de vos. Suerte bonita xd
+        </p>
+        <p class="col-sm-12 col-lg-12 col-xs-12">
+            <label class="col-sm-12 col-lg-12 col-xs-12">Intentos: 
+                <b> <span id="intentos">3</span></b> 
+                <a id="btn-quitar-intento" class="btn btn-light btn-menos " onclick="javascript:quitarIntento()">Si tocas acá perdés 1 intento</a> 
+            </label>
+
+            <label class="col-sm-12 col-lg-12 col-xs-12">
+                Opciones:
+            </label>
+
+            <a id="option1" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option" 
+            onclick="javascript:elegirOpcion(1)">Opcion 1</a>
+            <a id="option2" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
+            onclick="javascript:elegirOpcion(2)">Opcion 2</a>
+            <a id="option3" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
+            onclick="javascript:elegirOpcion(3)">Opcion 3</a>
+            <a id="option4" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
+            onclick="javascript:elegirOpcion(4)">Opcion 4</a>
+            
+        </p>
     </div>
+<script src="javascript/index.js"></script>
 </body>
+
 </html>

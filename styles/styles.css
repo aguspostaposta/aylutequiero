@@ -1,0 +1,25 @@
+body{
+    background: rgba(185, 140, 187, .5);
+}
+*{
+    font-family: 'QuickSand';
+}
+.points3 {
+    text-align: center;
+}
+.txt{
+    padding: 5px 30px;
+}
+h3{
+    padding: 0px 30px!important;
+}
+.btn-menos{
+    cursor: pointer;
+    border: 1px solid #bbb;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 2px;
+}
+.btn-option{
+    margin-top: 10px;
+}
