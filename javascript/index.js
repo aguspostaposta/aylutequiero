@@ -16,10 +16,14 @@ function quitarIntento(){
 
 function elegirOpcion(nroOpcion){
     if(intentos > 0){
-        if(nroOpcion === opcionCorrecta){document.querySelector('#carta').style.display = 'block';}
+        if(nroOpcion === opcionCorrecta){
+            document.querySelector('#carta').style.display = 'block';
+            document.querySelector('#carta-poker').style.display = 'none';
+        }
         else{
             quitarIntento();
             document.querySelector('#carta').style.display = 'none';
+            document.querySelector('#carta-poker').style.display = 'block';
         }
     }
     else{
