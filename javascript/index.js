@@ -27,7 +27,7 @@ function elegirOpcion(nroOpcion){
         }
     }
     else{
-        
+        nointentos();
     }
 }
 function changeDisplayContent(){
@@ -42,4 +42,10 @@ function changeDisplayContent(){
         content.classList.add('mas');
         content.classList.remove('menos');
     }
+}
+
+function nointentos(){
+    document.querySelector('#nintentos').style.display = 'block';
+    document.querySelector('#content').style.display = 'none';
+    document.querySelector('#carta-poker').style.display = 'none';
 }
