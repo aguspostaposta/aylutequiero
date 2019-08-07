@@ -1,14 +1,15 @@
 body{
     background: rgba(185, 140, 187, .5);
 }
-*{
-    font-family: 'QuickSand';
+body{
+    font-family: 'Lacquer';
 }
 .points3 {
     text-align: center;
 }
 .txt{
     padding: 5px 30px;
+    margin:0!important;
 }
 h3{
     padding: 0px 30px!important;
@@ -22,4 +23,25 @@ h3{
 }
 .btn-option{
     margin-top: 10px;
+}
+.carta{
+    background: #eee;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.title{
+    background: rgba(73, 29, 75, .5);
+    padding: 5px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.content{
+    font-family: 'Nunito';
+    padding: 8px;
+}
+#carta{
+    display: none;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Nunito|Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -72,27 +73,79 @@
             que hacer de mi parte, todo depende de vos. Suerte bonita xd
         </p>
         <p class="col-sm-12 col-lg-12 col-xs-12">
-            <label class="col-sm-12 col-lg-12 col-xs-12">Intentos: 
-                <b> <span id="intentos">3</span></b> 
-                <a id="btn-quitar-intento" class="btn btn-light btn-menos " onclick="javascript:quitarIntento()">Si tocas acá perdés 1 intento</a> 
+            <label class="col-sm-12 col-lg-12 col-xs-12">Intentos:
+                <b> <span id="intentos">3</span></b>
+                <a id="btn-quitar-intento" class="btn btn-light btn-menos " onclick="javascript:quitarIntento()">Si
+                    tocas acá perdés 1 intento</a>
             </label>
 
             <label class="col-sm-12 col-lg-12 col-xs-12">
                 Opciones:
             </label>
 
-            <a id="option1" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option" 
-            onclick="javascript:elegirOpcion(1)">Opcion 1</a>
+            <a id="option1" href="#carta" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
+                onclick="javascript:elegirOpcion(1)">Opcion 1</a>
             <a id="option2" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
-            onclick="javascript:elegirOpcion(2)">Opcion 2</a>
+                onclick="javascript:elegirOpcion(2)">Opcion 2</a>
             <a id="option3" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
-            onclick="javascript:elegirOpcion(3)">Opcion 3</a>
+                onclick="javascript:elegirOpcion(3)">Opcion 3</a>
             <a id="option4" class="col-sm-12 col-lg-12 col-xs-12 btn btn-light btn-option"
-            onclick="javascript:elegirOpcion(4)">Opcion 4</a>
-            
+                onclick="javascript:elegirOpcion(4)">Opcion 4</a>
         </p>
+
+        <div class="carta col-sm-12 col-lg-12 col-xs-12" id="carta">
+            <div class="title" onclick="javascript:changeDisplayContent()">
+                Primer mes
+            </div>
+            <div class="content menos" id="content">
+                <p>
+                    Ay ay ay bonita jajajaj, yo se que me queres mucho xd, a que gil se le ocurre hacer esta cosa rara,
+                    perdón, literalmente soy salame, no se que haces de novia conmigo, lo único que hago es estresarte
+                    la vida, y lo peor es que me parece kul jajaja no se me gusta molestarte, es como mi deber en esta
+                    relación, estresarte lo más que pueda hasta el 7 del siguiente mes cuando nos separemos (?).
+                </p>
+                <p>
+                    Aylen, acepta a Agustín como su hartador del resto de los días hasta que la muerte los separe? ndea.
+                </p>
+                <p>
+                    Te quiero tanto, digo tantas boludeces porque es como que no se como arrancar con todo lo que te
+                    quiero decir jaja soy chomaso.
+                </p>
+                <p>
+                    Que decirte que no te haya dicho, trato de decirte todo, para que te quede claro lo bien que me
+                    haces y lo feliz que soy con vos.
+                </p>
+                <p>
+                    A veces me pongo a pensar y es como re loco que estemos juntos, “re loco” jajaj me explico, desde
+                    que te conoci, cuando empezaste a juntar con Agus, que nos quedabamos todes un rato cuando salíamos
+                    y ustedes entraban como que me llamabas la atención, no en el sentido de gustarme, tipo, como que me
+                    parecías una persona interesante, kul, no se, tenias algo que me hacía pensar eso, después cuando
+                    Agus nos contaba que subias videos a iutub me parecía kul, NO SE BIEN COMO EXPLICARLO, como que no
+                    eras normie, y me agradaba. Y bueno, después empezamos a ir juntos en el colectivo, y yo pensaba,
+                    como todos los días que te veía que onda si te hablaba e íbamos hablando por las mañanas juntos, te
+                    había buscado varias veces por insta y me quede con el dedo a milímetros del boton de seguir(?), no
+                    se porque, re exagerado, tipo solo es seguir por insta jajaj, es que no se, soy re asi de pensar
+                    mucho todo, alto vueltero xd. PERO, el punto de todo esto es que, es como si hace ya mucho tiempo
+                    como que estabas en mi vida, como en mi círculo de personas, tan cerca y ni siquiera hablábamos,
+                    tipo había una persona tan kul cerca mio y no lo sabía, me parece re causalidad, como que sos tan
+                    igual a mi, y siento que somos tan para estar juntos, y estoy muy feliz de que todo se haya dado de
+                    la manera que se dio, no se, soy chomaso explicandome.
+                </p>
+                <p>
+                    Es como que apareciste en el momento justo de mi vida en el que necesitaba alguien como vos,
+                    literalmente sos exactamente lo que quería en este momento de mi vida, quería a alguien con quien
+                    poder ser yo, la gente normal es muy aburrida y de la nada apareciste vos, con tu no se que que me
+                    encanta, y me tiene re enamorado y no se, de ahi para adelante fueron solo cosas buenas en mi vida.
+                </p>
+                <p>
+                    Posta, estoy en un punto de mi vida en el que soy tan feliz y tengo tanta paz que no me puedo quejar
+                    de nada, y creo que esto en gran parte es gracias a ti, no se que haces, pero me haces bien.
+                </p>
+
+            </div>
+        </div>
     </div>
-<script src="javascript/index.js"></script>
+    <script src="javascript/index.js"></script>
 </body>
 
 </html>

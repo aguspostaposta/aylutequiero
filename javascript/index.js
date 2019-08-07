@@ -15,5 +15,27 @@ function quitarIntento(){
 }
 
 function elegirOpcion(nroOpcion){
-    if(nroOpcion === opcionCorrecta){console.log('ok');}
+    if(intentos > 0){
+        if(nroOpcion === opcionCorrecta){document.querySelector('#carta').style.display = 'block';}
+        else{
+            quitarIntento();
+            document.querySelector('#carta').style.display = 'none';
+        }
+    }
+    else{
+        
+    }
+}
+function changeDisplayContent(){
+    let content = document.querySelector('#content');
+    if(content.classList.contains('mas')){
+        content.style.display = 'block';
+        content.classList.add('menos');
+        content.classList.remove('mas');
+    }
+    else{
+        content.style.display = 'none';
+        content.classList.add('mas');
+        content.classList.remove('menos');
+    }
 }
