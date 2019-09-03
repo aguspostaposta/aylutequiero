@@ -3,7 +3,6 @@ counter();
 
 function counter(){
     let user = sessionStorage.getItem('userAA');
-    console.log(user);
     let diff;
     if(user === 'vagus'){
         diff = 0;
@@ -11,7 +10,6 @@ function counter(){
     else{
         let actualDate = parseInt(new Date().getDate());
         diff = (actualDate<8) ? 7 - actualDate : 31 - actualDate + 7; 
-        console.log(diff);
     }
 
     if(diff === 0){
