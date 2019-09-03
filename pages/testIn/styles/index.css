@@ -1,0 +1,32 @@
+section {
+  margin: 10px !important;
+  border-radius: 10px;
+  background: none;
+}
+
+section .head {
+  height: 125px !important;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+section .head .info-section {
+  position: absolute;
+  bottom: 0;
+  background: rgba(102, 102, 102, 0.7);
+  padding: 10px !important;
+  color: white;
+}
+
+section .head-galeria {
+  background-image: url("../img/gallery-min.jpg");
+}
+
+section .head-cartas {
+  background-image: url("../img/letters-min.jpg");
+}
+/*# sourceMappingURL=index.css.map */
